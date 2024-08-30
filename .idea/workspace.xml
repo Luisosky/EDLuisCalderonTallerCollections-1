@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69feb67d-d446-4892-865a-648506f99208" name="Changes" comment="Creación y finalización de los puntos de estructura de datos, solo falta escribir las diferencias del punto 17 y el de pilas">
+      <change afterPath="$PROJECT_DIR$/src/Clases/ArbolBinarioBusqueda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Clases/Nodo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Coordinador/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coordinador/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Luisosky&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Luisosky/EDLuisCalderonTallerCollections-1.git&quot;,
+    &quot;accountId&quot;: &quot;90747783-00e7-465a-8f92-b8fb1d92c712&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -37,12 +52,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lucho/Downloads/github-copilot-intellij-1.5.20.6554.zip&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Lucho/IdeaProjects/EDLuisCalderonTallerColecciones-1/src/Coordinador/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -66,6 +83,9 @@
       <workItem from="1724791617105" duration="1266000" />
       <workItem from="1724798485867" duration="44000" />
       <workItem from="1724798647217" duration="64000" />
+      <workItem from="1724984612221" duration="517000" />
+      <workItem from="1725044419432" duration="4482000" />
+      <workItem from="1725050998734" duration="1522000" />
     </task>
     <task id="LOCAL-00001" summary="Creación y finalización de los puntos de estructura de datos, solo falta escribir las diferencias del punto 17 y el de pilas">
       <option name="closed" value="true" />

@@ -35,7 +35,7 @@ public class Main {
         }else if (x==11) {
             ejecutarPunto11();
         }else if (x==12) {
-
+            ejecutarPunto12();
         }else if (x==13) {
             ejecutarPunto13();
         }else if (x==14) {
@@ -133,6 +133,15 @@ public class Main {
     public static void ejecutarPunto4(){
         Scanner scanner = new Scanner(System.in);
         PilaTipos p1 = new PilaTipos();
+
+        try {
+            p1.pushPila((new Persona("Natalia","Femenino",19)));
+            p1.pushPila((new Persona("Daniel","Masculino",20)));
+            p1.pushPila((new Persona("Londoño","Femenino",20)));
+            p1.pushPila( (new Persona("Pacho","Masculino",19)));
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public static void ejecutarPunto5(){
@@ -384,6 +393,19 @@ public class Main {
         return ordenado;
     }
 
+    public static void ejecutarPunto12(){
+        Nodo raiz = new Nodo(10);
+        ArbolBinarioBusqueda arbol = new ArbolBinarioBusqueda(raiz);
+        arbol.insertar(5);
+        arbol.insertar(15);
+        arbol.insertar(3);
+        arbol.insertar(7);
+        arbol.insertar(13);
+        arbol.insertar(17);
+        List<Integer> elementosEnOrden = arbol.obtenerElementosEnOrden();
+        System.out.println("Elementos en orden: " + elementosEnOrden);
+    }
+
     public static void ejecutarPunto13(){
         Scanner scanner = new Scanner(System.in);
         List<Integer> listaNum = new ArrayList<>();
@@ -536,13 +558,13 @@ public class Main {
         treeMap.put(p6.getCodigo(),p8);
         treeMap.put(p7.getCodigo(),p9);
 
-        System.out.println("HashMap:");
+        System.out.println("HashMap:Los elementos pueden aparecer en cualquier orden. ");
         hashMapa.forEach((key, value) -> System.out.println(key + ": " + value));
 
-        System.out.println("LinkedHashMap:");
+        System.out.println("LinkedHashMap:Los elementos aparecen en el orden en que fueron agregados. ");
         linkedHashMap.forEach((key, value) -> System.out.println(key + ": " + value));
 
-        System.out.println("TreeMap");
+        System.out.println("TreeMap: Los elementos aparecen en orden alfabético de las claves.");
         treeMap.forEach((key, value) -> System.out.println(key + ": " + value));
     }
 
