@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69feb67d-d446-4892-865a-648506f99208" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EDLuisCalderonTallerColecciones-1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/ComparadorPersonaNombre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/Empresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/PilaTipos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clases/Tarea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Coordinador/Main.java" afterDir="false" />
+    <list default="true" id="69feb67d-d446-4892-865a-648506f99208" name="Changes" comment="Creación y finalización de los puntos de estructura de datos, solo falta escribir las diferencias del punto 17 y el de pilas">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,30 +22,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2lAAwlrf6APjsp414tzLc0JPE5A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Lucho/IdeaProjects/EDLuisCalderonTallerColecciones-1/src/Coordinador/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Lucho/IdeaProjects/EDLuisCalderonTallerColecciones-1/src/Coordinador/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -75,11 +62,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724612749046</updated>
-      <workItem from="1724612750127" duration="5694000" />
+      <workItem from="1724612750127" duration="5829000" />
+      <workItem from="1724791617105" duration="1266000" />
+      <workItem from="1724798485867" duration="44000" />
+      <workItem from="1724798647217" duration="64000" />
     </task>
+    <task id="LOCAL-00001" summary="Creación y finalización de los puntos de estructura de datos, solo falta escribir las diferencias del punto 17 y el de pilas">
+      <option name="closed" value="true" />
+      <created>1724619135457</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724619135457</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creación y finalización de los puntos de estructura de datos, solo falta escribir las diferencias del punto 17 y el de pilas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación y finalización de los puntos de estructura de datos, solo falta escribir las diferencias del punto 17 y el de pilas" />
   </component>
 </project>
